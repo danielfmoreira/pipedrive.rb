@@ -35,8 +35,6 @@ module Pipedrive
   def logger
     @logger ||= Logger.new(STDOUT)
   end
-
-  reset!
 end
 
 require 'pipedrive/railties' if defined?(::Rails)
